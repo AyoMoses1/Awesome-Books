@@ -19,6 +19,11 @@ ul li span {
   font-weight: 600;
 }
 
+form button {
+  max-width: 20%;
+  padding: 10px;
+}
+
 ul li button {
   max-width: 30%;
   padding: 10px;
@@ -32,11 +37,6 @@ form {
 form input {
   max-width: 50%;
   margin-bottom: 20px;
-  padding: 10px;
-}
-
-form button {
-  max-width: 20%;
   padding: 10px;
 }
 
