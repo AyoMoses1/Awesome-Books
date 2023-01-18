@@ -112,13 +112,10 @@ Install this project with:
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
 ```sh
-  rails server
+  Install live server extension on VS code
+  Right click the index.html file and run it with the live server extension installed
 ```
---->
 
 ### Run tests
 
