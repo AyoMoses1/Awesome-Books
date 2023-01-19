@@ -4,45 +4,72 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
+  border: 2px solid #000;
 }
 
 ul li {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-ul li span {
-  font-size: 20px;
-  margin-bottom: 1.1rem;
+ul li div:first-child {
   font-weight: 600;
+  font-size: 1.2rem;
+}
+
+ul li:nth-child(odd) {
+  background: rgb(212, 209, 209);
 }
 
 form button {
   max-width: 20%;
   padding: 10px;
+  align-self: flex-end;
 }
 
 ul li button {
-  max-width: 30%;
   padding: 10px;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 0 20%;
+}
+
+form h2 {
+  text-align: center;
 }
 
 form input {
-  max-width: 50%;
+  width: 100%;
   margin-bottom: 20px;
   padding: 10px;
+  border: 2px solid #000;
+  font-weight: 500;
+}
+
+form input::placeholder {
+  font-weight: 500;
 }
 
 .divider {
-  width: 100%;
-  height: 2px;
+  width: 50%;
+  height: 3px;
   background: grey;
-  margin: 20px 0;
+  margin: 20px auto;
 }
