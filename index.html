@@ -9,21 +9,43 @@
 </head>
 <body>
   <header>
-    <h1>Awesome Books</h1>
+    <nav>
+      <div class="logo">
+        <h3>Awesome Books</h3>
+      </div>
+      <ul class="nav_links">
+        <li><a href="#" id="list" class="nav_link active">List</a></li>
+        <li><a href="#" id="new" class="nav_link">Add new</a></li>
+        <li><a href="#" id="contact" class="nav_link">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <ul class="list">
-    
-  </ul>
-
-  <div class="divider"></div>
-  <section id="book_form">
+  <section id="section-list">
+    <h1>All Awesome Books</h1>
+    <ul class="list"></ul>
+    <!-- <div class="divider"></div> -->
+  </section>
+  <section id="section-new" class="hide">
     <form action="#" method="post" class="contact_form">
-      <h2>Add a new book</h2>
+      <h1>Add a new book</h1>
       <input  class="form_item" id="book_title" type="text" name="book_title" placeholder="Title" maxlength="30" required>
       <input  class="form_item" id="book_author" type="text" name="book_author" placeholder="Author" required>
       <button type="button" class="form_button" >Add</button>
    </form>
   </section>
+  <section id="section-contact" class="hide contact">
+    <h1>Contact Information</h1>
+    <p>Do you have any questions or you just want to say "Hello"? <br/> You can reach out to us!</p>
+    <ul>
+      <li>Our email: ayomoses111@gmail.com</li>
+      <li>Our phone number: 08163647778 </li>
+      <li>Our address: General Gas 22, Akobo, Ibadan, Nigeria</li>
+    </ul>
+  </section>
+  <footer>
+    <h3>Copyright ...</h3>
+  </footer>
   <script src='index.js'></script>
+  <script src="navigation.js"></script>
 </body>
 </html>
