@@ -21,12 +21,12 @@ ul li {
   padding: 10px;
 }
 
-ul li div:first-child{
+ul li div:first-child {
   font-weight: 600;
   font-size: 1.2rem;
 }
 
-ul li:nth-child(odd){
+ul li:nth-child(odd) {
   background: rgb(212, 209, 209);
 }
 
@@ -59,7 +59,7 @@ form input {
   font-weight: 500;
 }
 
-form input::placeholder{
+form input::placeholder {
   font-weight: 500;
 }
 
